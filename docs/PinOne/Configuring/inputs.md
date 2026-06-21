@@ -10,14 +10,19 @@ sidebar_position: 2
 
 Each button can be relabeled for convenience in case you want to designate each buttons details
 
+(It is helpful to change the default button labels to reflect your installed configuration. To do so, press an installed button (i.e. right flipper) and observe which Input # flashes within the Input table. Select the pencil icon next to this Input # and change its name to the button just pressed. Repeat this process for all buttons connected to the PinOne board.) 
+
+## Button Mapping
+
+You can assign physical buttons to actuate different virtual buttons using the button mapping feature. For example if you want the button press on position 1 on the board to actually send an event to button 3, you can make that happen by setting the button mapping on input 1 to 3.
+
+(Next each of the physical buttons identified above need to be associated to the keyboard presses PinUp Popper recognizes. As an example, the "Right ARROW" key moves to the next menu item which is typically linked to the PinOne Right Flipper button identified previously. Thus in this instance, the "Right ARROW" option is selected from the Keyboard Mapping dropdown shown to the left of the Right Flipper input. Typically, the primary Popper functions which should be mapped to buttons are game (prior / next), Coin, Start Game, and Exit. But you can add as many as you think necessary. VPX functions were linked to PinOne buttons via the steps on the previous page )
+
 ## Shift Button
 
 This dropdown selects which button is assigned as the "shift button" when pressing this button, buttons 5-8 will actually trigger 25-28, allowing those 4 buttons to have dual actions.
 
-## Button Mapping
-
-You can assign physical buttons to actuate different virtual buttons using hte button mapping feature. For example if you want the button press on position 1 on the board to actually send an event to button 3, you can make that happen by setting the button mapping on input 1 to 3.
-
+(If more functions are needed beyond the number of buttons available on your cabinet, a "SHIFT Button" can be assigned such that each button can have a secondary function nce the "SHIFT Button" is depressed. To define the "SHIFT Button", select one of those listed in the drop down menu 
 
 ## Steam calibration text
 
